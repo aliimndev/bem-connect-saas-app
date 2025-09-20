@@ -66,7 +66,7 @@ export const HeroHeader = () => {
                     href={item.href}
                     className="text-black font-medium hover:text-accent-foreground block duration-150">
 
-                      <span className="text-black font-medium !whitespace-pre-line">
+                      <span className="text-black font-medium !whitespace-pre-line !whitespace-pre-line !w-full !h-[17px]">
                         {item.name}
                       </span>
                     </Link>
